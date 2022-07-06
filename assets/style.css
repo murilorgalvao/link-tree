@@ -10,6 +10,14 @@
   /* 1rem = 10px */
 }
 
+html {
+  min-height: 100%;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 a {
   text-decoration: none;
 }
@@ -18,11 +26,9 @@ body {
   font-family: 'Roboto', sans-serif;
   width: 100%;
   height: 100%;
-  background: #EDF2FF;
   display: flex;
   align-items: center;
   justify-content: center;
-
   animation: scale-up-center 1s;
 }
 
@@ -39,7 +45,16 @@ body {
 .container {
   text-align: center;
   width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 6rem auto;
+  border: none;
+  border-radius: .8rem;
+  box-shadow: rgba(0, 0, 0, 0.705) 0px 0px 30px 2px;
+  backdrop-filter: blur(20px);
+  padding: 2rem;
 }
 
 .username {
@@ -98,6 +113,7 @@ ul {
 
 ul li a {
   height: 5.3rem;
+  width: 25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,7 +124,7 @@ ul li a {
   font-size: 1.4rem;
 
   margin-bottom: 16px;
-  border-radius: 6px;
+  border-radius: .6rem;
 
   transition: background 400ms;
 }
