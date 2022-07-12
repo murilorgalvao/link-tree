@@ -11,7 +11,7 @@
 }
 
 html {
-  background-image: url(bg.jpg);
+  background-image: linear-gradient(to bottom right, #efe1fa, #b98fe5);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
