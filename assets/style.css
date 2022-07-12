@@ -28,7 +28,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: scale-up-top 3s;
+  animation: scale-up-top 2s;
 }
 
 @keyframes scale-up-top {
@@ -79,7 +79,7 @@ body {
 
 svg {
   margin-right: 1rem;
-  animation: rotate-vertical-center 3s
+  animation: rotate-vertical-center 2s
 }
 
 @keyframes rotate-vertical-center {
