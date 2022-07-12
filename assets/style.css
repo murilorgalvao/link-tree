@@ -79,7 +79,7 @@ body {
 
 svg {
   margin-right: 1rem;
-  animation: rotate-vertical-center 1s
+  animation: rotate-vertical-center 3s
 }
 
 @keyframes rotate-vertical-center {
