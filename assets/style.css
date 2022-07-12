@@ -28,7 +28,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: scale-up-top 1s;
+  animation: scale-up-top 3s;
 }
 
 @keyframes scale-up-top {
